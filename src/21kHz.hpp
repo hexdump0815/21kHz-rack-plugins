@@ -50,7 +50,7 @@ struct kHzKnobSmallSnap : kHzKnobSmall {
 
 // Buttons
 
-struct kHzButton : SVGSwitch, ToggleSwitch {
+struct kHzButton : SVGSwitch {
     kHzButton() {
         addFrame(SVG::load(assetPlugin(pluginInstance, "res/Components/kHzButton_0.svg")));
         addFrame(SVG::load(assetPlugin(pluginInstance, "res/Components/kHzButton_1.svg")));
