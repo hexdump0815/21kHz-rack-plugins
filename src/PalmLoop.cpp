@@ -228,7 +228,7 @@ struct PalmLoopWidget : ModuleWidget {
 // author name for categorization per pluginInstance, module slug (should never
 // change), human-readable module name, and any number of tags
 // (found in `include/tags.hpp`) separated by commas.
-Model *modelPalmLoop = createModel<PalmLoop, PalmLoopWidget>("kHzPalmLoop");
+Model *modelPalmLoop = createModel<PalmLoop, PalmLoopWidget>("PalmLoop");
 
 // history
 // 0.6.0

@@ -98,7 +98,7 @@ struct D_InfWidget : ModuleWidget {
 // author name for categorization per pluginInstance, module slug (should never
 // change), human-readable module name, and any number of tags
 // (found in `include/tags.hpp`) separated by commas.
-Model *modelD_Inf = createModel<D_Inf, D_InfWidget>("kHzD_Inf");
+Model *modelD_Inf = createModel<D_Inf, D_InfWidget>("D_Inf");
 
 
 // history
